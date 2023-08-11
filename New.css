@@ -1,0 +1,328 @@
+
+nav{
+    background-color:#111828;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    
+}
+li{
+    list-style: none;
+    padding-left: 40px;
+    color: white;
+}
+.search{
+    background-color: transparent;
+}
+.files{
+    margin-left: 250px;
+    display: inline;
+ 
+}
+.main{
+    margin-left: 250px;
+    display: inline;
+    
+}
+.wind{
+    margin-left: 250px;
+}
+.btn-primary {
+background-color: #007bff;
+color: #fff;
+
+}
+.btn-primary {
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect */
+.btn-primary:hover {
+background-color: #0056b3;
+}
+
+/* Add active effect */
+.btn-primary:active {
+background-color: #004185;
+}
+
+/* Adjust the position */
+.btn-primary {
+position: absolute;
+left: 1400px;
+transform: translateX(-100%);
+margin-top: 10px;
+margin-top: 10px;
+height: 30px;
+border-radius: 5px;
+border: none;
+}
+.plan{
+position:absolute;
+left:700px;
+top:175px;
+}
+hr{border: none;
+border-top: 1px dotted black;
+color: #fff;
+background-color: #fff;
+height: 1px;
+width: 25%;
+margin-left: 250px;
+}
+.box{
+
+height: 235px;
+width: 365px;
+position: absolute;
+border:1px solid lightgrey;
+border-radius: 5px;
+margin-left: 250px;
+
+
+
+}
+.inner{
+height: 50px;
+width: 340px;
+border:none;
+position: relative;
+left:12px;
+top:15px;
+background-color: #F5F5F5;
+}
+.rrr{
+height: 50px;
+width: 340px;
+border:none;
+position: relative;
+left:12px;
+top:40px;
+background-color: #F5F5F5;
+}
+.bbb{
+
+height: 50px;
+width: 340px;
+border:none;
+position: relative;
+left:12px;
+top: 65px;
+background-color: #F5F5F5;
+}
+.para{
+position: relative;
+left: 20px;
+top:9px;
+display: inline;
+}
+.pre{
+position: absolute;
+top:-00px;
+left: 40px;
+}
+.details
+{
+position: relative;
+left: 20px;
+top:-5px;
+}
+.s{
+position: relative;
+left: 300px;
+top:30px;
+z-index: 5;
+width: 30px;
+}
+.se{
+
+position: relative;
+left: 300px;
+top:-45px;
+z-index: 5;
+width: 30px;
+}
+.ss
+{
+position: relative;
+left: 300px;
+top:-45px;
+z-index: 5;
+width: 30px;
+}
+
+.sd{
+position: relative;
+left: 300px;
+top:-45px;
+z-index: 5;
+width: 30px;
+}
+.item{
+
+height: 700px;
+width: 800px;
+border:1px solid lightgrey;
+margin-left: 700px;
+background-color: #F5F5F5;
+}
+.filesHeading{
+font-size: 16px;
+margin-left: 30px;
+}
+.downloadicon{
+margin-left: 100px;
+margin-top: 5px;
+
+}
+.pdf{
+margin-left: 55px;
+margin-bottom: 10px;
+font-size: 25px;
+color: blue;
+}
+.cardfiles{
+border: 2px solid lightgray;
+width: 130px;
+margin-left: 30px;
+height: 130px;
+padding: 16px;
+background-color:  #FFFFFF;                    
+
+}
+.carddiscription{
+text-align: center;
+font-size: 13px;
+
+}
+.darkheading{
+font-weight: bold;
+}
+.allcards{
+display: flex;
+flex-direction: row;
+}
+.span{
+color: #0056b3;
+}
+.filesheadins{
+margin-left: 20px;
+color: rgb(39, 37, 37);
+text-decoration: none;
+}
+.bluefile{
+color: #0056b3;
+border-bottom:3px solid #0056b3;
+}
+
+/*from here*/
+
+.nav-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-icons {
+list-style: none;
+display: flex;
+}
+
+.nav-icons li {
+margin-right: 10px; /* Adjust the margin to create spacing between icons */
+}
+
+.nav-icons a {
+color: #fff;
+text-decoration: none;
+}
+
+.nav-icons a {
+display: inline-block;
+margin-right: 15px; /* Adjust the spacing between icons */
+text-decoration: none;
+transition: transform 0.3s, box-shadow 0.3s; /* Add smooth transition */
+}
+
+.nav-icons a img {
+width: 25px; /* Adjust the width of the icons */
+height: 25px; /* Adjust the height of the icons */
+margin: 5px; /* Add space around the icons */
+filter: brightness(0) invert(1); /* Make the icons white */
+transition: transform 0.3s, box-shadow 0.3s; /* Add smooth transition */
+}
+
+.nav-icons a:hover {
+transform: translateY(-3px); /* Apply elevation effect */
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.nav-icons a:hover img {
+transform: scale(1.1) translateY(-3px); /* Apply elevation effect to the image */
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add box shadow to the image */
+}
+
+
+.header-right {
+display: flex;
+align-items: center;
+}
+
+.search-container {
+margin-right: 10px; /* Optional: Add some spacing between search bar and bell icon */
+}
+.header-right {
+display: flex;
+align-items: center;
+}
+
+.search-container {
+margin-right: 10px; /* Optional: Add some spacing between search bar and bell icon */
+}
+
+.bell-icon {
+width: 20px; /* Adjust the width to your desired size */
+height: 20px; /* Adjust the height to your desired size */
+}
+.header-right {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px;
+background-color: #333;
+color: white;
+}
+
+.header-right {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px;
+background-color: #333;
+color: white;
+}
+
+.search-container {
+flex: 1;
+padding: 5px;
+}
+
+.search-bar {
+width: 100%;
+padding: 8px;
+border: none;
+border-radius: 5px;
+}
+.t{
+    width: 400px;;
+}
+.foot{
+    position: absolute;
+    left: 400px;
+}
+
+
